@@ -16,6 +16,7 @@ public class kalkulacka {
     }
 
     static void intro() {
+        System.out.println("Zkouska github");
         System.out.println("Tento program dokaze pracovat s jednoduchymi matematickymi operacemi jako je scitani, odcitani, nasobeni, deleni a zbytek po deleni.");
         System.out.println("Pro zvoleni operace zmacknete nasledujici cislo: \nScitani - 1\nOdcitani - 2\nNasobeni - 3\nDeleni - 4\nZbytek po deleni - 5");
         volbaOperace();
@@ -71,7 +72,7 @@ public class kalkulacka {
     }
 
     static String spatneZadani() {
-        String spatne = "Zadali jste špatné zadání!";
+        String spatne = "Zadali jste spatne zadani!";
         return spatne;
     }
 }
